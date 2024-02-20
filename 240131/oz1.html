@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <p id="text">오즈코딩스쿨</p>
+    <button onclick="toggleText()">클릭</button>
+  </body>
+  <script>
+    function toggleText() {
+      const elem = document.getElementById('text');
+
+      if (elem.innerHTML === '오즈코딩스쿨') {
+        elem.innerHTML = '초격차 캠프';
+      } else {
+        elem.innerHTML = '오즈코딩스쿨';
+      }
+    }
+  </script>
+</html>
