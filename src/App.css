@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  margin: 2rem;
+}
+header {
+  maring: 2rem 0;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #48d9f3;
+}
+header p {
+  margin: 0;
+  color: #82c2ce;
+}
+.active {
+  background-color: #48d9f3;
+}
+#tabs {
+  max-width: 30rem;
+  margin: 2rem 0;
+}
+#tabs menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0.2rem;
+}
+
+#tabs button {
+  font-size: 0.8rem;
+  background-color: #282f33;
+  border: none;
+  border-bottom-color: #48d9f3;
+  border-radius: 4px 4px 0 0;
+  padding: 0.75rem 1rem;
+  cusor: pointer;
+  transition: all 0.2s ease-out;
+  color: white;
+}
+
+#tabs button:hover,
+#tabs button.active {
+  background-color: #48d9f3;
+  color: #273133;
+}
+#tab-content {
+  background-color: #2d3942;
+  border-radius: 0 4px 4px 4px;
+  padding: 1rem;
+}
